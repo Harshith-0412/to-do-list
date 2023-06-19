@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0c02023c;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(249, 242, 103);
+  font-size: 55px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.task-container {
+  flex-grow: 1;
+  background-color: #c7e7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.task-container h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+  margin-right: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d3942f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#add-button {
+  color: rgb(253, 253, 253);
+  background-color: rgb(73, 222, 245);
+  margin-left: 0px;
+}
+
+.header-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#delete-all-button {
+  margin-bottom: 20px;
+  background-color: rgb(247, 12, 12);
+}
+
+#add-button:hover{
+  background-color: rgb(148, 158, 244);
+}
+#delete-all-button:hover{
+  background-color: rgb(250, 164, 164);
+}
